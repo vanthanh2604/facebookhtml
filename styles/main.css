@@ -1,0 +1,167 @@
+*{padding: 0;margin: 0;}
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.center{
+    margin: 0 auto;
+    width: 73.6%;
+}
+header{
+    width: 100%;
+    min-height: 80px;
+    background-color: #385898;
+}
+.header1{
+    padding-top: 13px;
+}
+.header1 .logo{
+    float: left;
+
+}
+.logo h1,.logo a{
+    background-color: #385898;
+    color: white;
+    text-decoration: none;
+}
+.logo a{
+    font-size: 150%;
+}
+header .dang-nhap-form{
+    float: right;
+    width: 60%;
+}
+.dang-nhap-form .form1{
+    float: right;
+}
+#quentk a{
+    font-family: inherit;
+    color: #9cb4d8;
+    text-decoration: none;
+    font-size: 80%;
+}
+.dang-nhap-form form{
+    float: left;
+    color: white;
+}
+.dang-nhap-form .group{
+    float: left;
+    margin: .25em;
+}
+.dang-nhap-form .group .btn button{
+    border: 0;
+    background-color: #4267b2;
+    color: white;
+    padding: .1em .2em .8em .2em;
+}
+.dang-nhap-form .group input, .btn button{
+    height: 1.5em;
+}
+.dang-nhap-form .group label{
+    font-size: 85%;
+    font-family: inherit;
+}
+/*section*/
+section{
+    background: linear-gradient(white, #D3D8E8);
+    width: 100%;
+    min-height: 550px;
+}
+.trai{
+    float: left;
+    width: 55%;
+    padding-top: 1.6em; 
+}
+#modau{
+    font-family: inherit;
+    color: #0e385f;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 450px;
+    word-spacing: -1px;
+}
+.phai{
+    width: 45%;
+    float: right;
+}
+#form #ngsinh, #gt{
+    color: #90949c;
+}
+.dk-nc{
+    padding: 20px 0;
+    color: #333;
+}
+.dk-nc h1{
+    font-size: 250%;
+    padding-bottom: .25em;
+}
+.dk-nc p{
+    font-size: 130%;
+}
+.ho-ten, .sdt-email, .matkhau{
+    width: 86%;
+    height: 49px;
+    
+}
+.ho-ten input, .sdt-email input, .matkhau input{
+    height: 39px;
+    border: 1px solid;
+    border-color: #bdc7d8;
+    border-radius: 7px;
+    padding-left: .5em;
+}
+.ho-ten input{
+    padding-right: 12px;
+}
+.sdt-email input, .matkhau input{
+    width: 100%;
+}
+.ngay-sinh{
+    margin: .5em 0;
+}
+.ngay-sinh .ngay,.thang,.nam{
+    height: 28px;
+    margin: .5em 0;
+}
+.gioi-tinh .span-gioitinh{
+    margin-top: 1em;
+}
+.gioi-tinh .sp-gt{
+    margin-right: 1.5em;
+}
+#form p{
+    margin-top: 10px;
+    width: 84%;
+    font-size: 80%;
+}
+.p-href a{
+    color: blue;
+    text-decoration: none;
+}
+#form .btn-dk button{
+    color: white;
+    font-size: 120%;
+    width: 123px;
+    height: 30px;
+    background: #5f994c;
+    border: 0;
+    border-radius: 10px;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    margin: 1em 0;
+}
+/*footer*/
+ul>li{
+    float: left;
+    list-style: none;
+    margin-right: 1em;
+}
+ul{
+    margin: 1em 0;
+}
+ul>li>a{
+    text-decoration: none;
+    color: #385898;
+}
